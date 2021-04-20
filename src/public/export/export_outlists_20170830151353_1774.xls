@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"></OfficeDocumentSettings><ss:Worksheet ss:Name="Sheet 1"><Table>
+                    <Column ss:Width="50"/><Column ss:Width="50"/><Column ss:Width="50"/><Column ss:Width="50"/><Column ss:Width="50"/><Column ss:Width="50"/>
+                    <Column ss:Width="50"/><Column ss:Width="50"/><Column ss:Width="50"/>
+                    <Row>
+                        <Cell><Data ss:Type="String">车场ID</Data></Cell>
+                        <Cell><Data ss:Type="String">车辆ID</Data></Cell>
+                        <Cell><Data ss:Type="String">是否月卡</Data></Cell>
+                        <Cell><Data ss:Type="String">是否自动开闸</Data></Cell>
+                        <Cell><Data ss:Type="String">应收</Data></Cell>
+                        <Cell><Data ss:Type="String">实收</Data></Cell>
+                        <Cell><Data ss:Type="String">异常理由</Data></Cell>
+                        <Cell><Data ss:Type="String">进场时间</Data></Cell>
+                        <Cell><Data ss:Type="String">出场时间</Data></Cell>
+                    </Row>

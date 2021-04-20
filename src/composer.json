@@ -1,0 +1,43 @@
+{
+    "name": "laravel/lumen",
+    "description": "The Laravel Lumen Framework.",
+    "keywords": ["framework", "laravel", "lumen"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0"
+        ,"laravel/lumen-framework": "5.2.*"
+        ,"vlucas/phpdotenv": "~2.2"
+        ,"predis/predis": "*"
+        ,"illuminate/redis": "*"
+        ,"rmccue/requests": ">=1.0",
+        "respect/validation": "^1.1",
+        "phpoffice/phpspreadsheet": "^1.7",
+        "phpoffice/phpexcel": "^1.8",
+        "opentracing/opentracing":"1.0.0-beta5",
+        "jukylin/jaeger-php" : "v2.1.2-beta",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "psr-0": {"Requests": "library/"}
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/",
+            "database/"
+        ]
+    },
+"repositories": {
+    "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+}
+}
